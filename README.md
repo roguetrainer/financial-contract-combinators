@@ -2,6 +2,8 @@
 
 A Python implementation of Simon Peyton Jones's functional approach to modeling financial derivatives, based on his seminal paper **"Composing Contracts: An Adventure in Financial Engineering"** (2000).
 
+![FCC](./compositional-contracts.png)
+
 ## Overview
 
 This implementation demonstrates how complex financial derivatives can be elegantly constructed from simple, composable primitives using functional programming principles. The key insight is that financial contracts form an algebra where complex instruments are built through composition of simpler building blocks.
@@ -319,6 +321,12 @@ python exotic_derivatives.py
 2. **Botta, N., Jansson, P., & Ionescu, C.** (2017). "The Impact of the Lambda Calculus in Logic and Computer Science." *Bulletin of Symbolic Logic*.
 
 3. **Eber, J-M.** (1999). "Compositional Specification of Financial Contracts." *PhD Thesis, École Polytechnique*.
+
+## See also:
+* https://www.lexifi.com/
+* https://www.lexifi.com/technology/algebra/
+* https://fssnip.net/9z/title/DSL-for-financial-contracts
+* https://thehedgefundjournal.com/fincad-multi-asset-derivatives-analytics/ ("_It can snap together financial contracts like Lego building blocks. Single cash-flows or legs of cash-flows can be combined to represent almost any financial product._")
 
 ## Key Insights
 
